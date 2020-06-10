@@ -1,0 +1,441 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*header start*/
+header{
+	background-color: #121b2a;
+}
+.wrapper {
+	/*border: 1px solid lime;*/
+	width:90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	width: 18%;
+	float: left;
+	margin-top: 12px; 
+	cursor: pointer;
+}
+.logo img{
+	width: 100%
+}
+.menu {
+	width: auto;
+	margin-top: 44px;
+	float: right;
+}
+.menu ul{
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .4s;
+	padding: 0px 30px;
+	display: block;
+}
+.menu ul li:first-child a{
+	color: #0079bd;
+}
+.menu ul li a:hover{
+	color: #0079bd;
+}	
+/*header end*/
+
+/*banner start*/
+.banner {
+	background-image: url(../images/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.b-wrapper {
+}
+
+.b-content {
+	width: 47%;
+	margin: 238px 0 80px 30px;
+}
+.b-content h3{
+	font-family: ubuntu, sans-serif;
+	font-size: 40px;
+	font-weight: 300;
+	color: #fff;
+	margin: 0;
+}
+.b-content h1{
+	font-family: sans-serif;
+	font-size: 44px;
+	font-weight: 700;
+	color: #0078bd;
+	margin: 0;
+}
+.b-content p{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+	margin: 0;
+	line-height: 30px;
+}
+.b-content button{
+	width: 236px;
+	height: 52px;
+	font-family: ubuntu, sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #fff;
+	background-color: rgba(225, 226, 231, .1);
+	border: none;
+	border-radius: 5px;
+	margin-top: 36px;
+	transition: .4s;
+	cursor: pointer;
+	margin-left: 2px;
+}
+.b-content button img{
+	width: 25px;
+	display: block;
+	float: right;
+	margin-right: 18px;
+}
+.b-content button:hover{
+	background-color: rgba(225, 225, 225, .99);
+	color: #121b2c;
+	box-shadow: 0 0 3px #fff, 0 0 25px #fff, 0 0 10px #fff;
+}
+/*banner end*/
+
+/*service start*/
+.service{
+	background-color: #121b2a;
+}
+.s-wrapper{
+	/*border: 1px solid lime;*/
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 60px;
+	padding-bottom: 45px; 
+}
+
+.single {
+	width: 30%;
+	float: left;
+	padding: 1.6%;
+	border-right: 1px solid rgba(225, 225, 225, .05);
+}
+.single:last-child{
+	border-right: none;
+}	
+.top {
+	overflow: hidden;
+}
+.icon {
+	width: 30%;
+}
+.icon img{
+	width: 83px;
+	height: 80px;
+    float: left;
+}
+.wireless-system{
+	margin-top: 26px;
+}
+.icon-content {
+	width: 60%;
+	float: left;
+	margin-top: 16px;
+}
+.icon-content h1{
+	font-family: ubuntu, sans-serif;
+	font-weight: 300;
+	color: #fff;
+	margin: 0;
+}
+.icon-content h2{
+	font-family: ubuntu, sans-serif;
+	font-weight: 700;
+	color: #0277BD;
+	margin: 0;
+}
+.wireless-system h1{
+	font-family: ubuntu, sans-serif;
+	font-weight: 300;
+	color: #fff;
+	margin: 0;
+	display: inline-block;
+	float: left;
+}	
+.wireless-system h2{
+	overflow: hidden;
+	float: left;
+	margin-left: 6px;
+}	
+.bottom {
+}
+.bottom p{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 28px;
+}
+/*service end*/
+
+/*about us start*/
+
+.about{
+	background-color: #040811;
+}
+.about-wrapper{
+	/*border: 1px solid tomato;*/
+	width: 84%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+}
+.left-part{
+	width: 24%;
+	float: left;
+	/*border: 1px solid lime;*/
+}
+.adress{
+	width: 100%;
+
+}
+.adress h3{
+	font-family: ubuntu, sans-serif; 
+	font-weight: 300;
+	font-size: 26px;
+	color: #fff;
+}
+.adress h3 span{
+	font-family: ubuntu, sans-serif; 
+	font-weight: 700;
+	color: #0277BD;
+}
+.adress p{
+	font-family: sans-serif; 
+	font-size: 14px;
+	font-weight: 300;
+	color: #fff;
+}
+.email{
+	padding-top: 6px;
+}
+.email td{
+	font-family: sans-serif; 
+	font-size: 14px;
+	font-weight: 300;
+	color: #fff;
+}
+.middle-part{
+	width: 28%;
+	float: left;
+	/*border: 1px solid pink;*/
+	padding-left: 30px;
+}
+.talkbubble{
+	width: 100%;
+	padding: 18px;
+	background-color: #0C1019;
+	border-radius: 5px;
+	position: relative;
+}
+.talkbubble h3{
+	font-family: ubuntu, sans-serif; 
+	font-weight: 300;
+	font-size: 26px;
+	color: #fff;
+	margin: 0;
+}
+.talkbubble h3 span{
+	font-family: ubuntu, sans-serif; 
+	font-weight: 700;
+	color: #0277BD;
+}
+.talkbubble p{
+	font-family: sans-serif;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 300;
+	text-transform: capitalize;
+	line-height: 22px;
+	margin-top: 10px;
+	margin: 0;
+	margin-top: 18px;
+}
+.talkbubble:before {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 65px solid transparent;
+	border-top: 30px solid #0C1019;
+	left: 228px;
+	top: 98%;
+}
+.web{
+
+}
+.web h5{
+	font-family: sans-serif; 
+	font-weight: 700;
+	color: #FFF;
+	margin-bottom: 10px;
+}
+.web p{
+	font-family: sans-serif; 
+	font-weight: 300;
+	font-size: 14px;
+	color: #FFF;
+	margin: 0;
+}
+.mobile-part{
+	/*border: 1px solid blue;*/
+	width: 11%;
+	float: left;
+	padding-left: 82px;
+	margin-top: -10px;
+}
+.individual{
+	padding-right: 10px;
+}
+.mobile-image{}
+.mobile-image img{
+	width: 100%
+}
+
+.right-part{
+	width: 21%;
+	/*border: 1px solid yellow;*/
+	float: left;
+	padding-left: 28px;
+	margin-top: -8px;
+}
+.apps-name{
+
+}
+.apps-name h4{
+	font-family: ubuntu, sans-serif; 
+	font-weight: 300;
+	font-size: 26px;
+	color: #fff;
+	margin: 0;
+}
+.apps-name h3{
+	font-family: ubuntu, sans-serif; 
+	font-weight: 700;
+	font-size: 31px;
+	color: #0277BD;
+	margin:0;
+	line-height: 38px;
+}
+.apple-icon-content{
+	width: 200px;
+	height: 60px;
+	background-image: linear-gradient(#fff, #b3bcc3);
+	border-radius: 4px;
+	margin-top: 18px;
+	cursor: pointer;
+}
+.apple-icon{
+	overflow: hidden;
+	text-align: center;
+}
+.apple-icon img{
+	width: 54px;
+	float: left;
+}
+.apple-icon p{
+	font-family: sans-serif;
+	font-size: 12px;
+	margin: 0;
+	float: left;
+	padding-top: 9px;
+}
+.apple-icon h2{
+	font-family: ubuntu, sans-serif;
+	font-size: 26px;
+	margin:0;
+	margin-top: -3px;
+	float: left;
+}
+/*about us end*/
+
+/*footer start*/
+.f-wrapper{
+	width: 80%;
+	margin: 0 auto;
+}
+footer{
+	padding: 20px 0;
+	background-color: #121B2C;
+	overflow: hidden;
+}
+footer .footer-menu{
+	width: 63%;
+	float: left;
+}
+footer .footer-menu ul{
+	margin-top: 14px;
+}
+footer .footer-menu ul li{
+	list-style: none;
+	display: inline;
+}
+footer .footer-menu ul li a{
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	display: inline-block;
+	text-transform: capitalize;
+	text-decoration: none;
+	padding: 0 10px;
+	border-right: 1px solid #fff;
+	transition: 0.5s ease;
+}
+footer .footer-menu ul li:first-child a{
+	padding-left: 0;
+}
+footer .footer-menu ul li:last-child a{
+	border-right: none;
+}
+footer .footer-menu ul li a:hover{
+	color: #007AC4;
+}
+footer .footer-menu p {
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: capitalize;
+	color: #fff;
+	margin-top: 15px;
+	padding-left: 40px;
+}
+footer .footer-image{
+	width: 30%;
+	float: left;
+	padding-left: 14px;
+}
+footer .footer-image img{
+	width: 100%;
+}
+
+/*footer end*/
